@@ -29,7 +29,7 @@ https://github.com/NetoDevel/generate-core
 
 # Requeriments
          
-* Java
+* Java 8
 * Spring Boot CLI (1.4.1 or higher):
 
 # Install
@@ -45,6 +45,7 @@ And install the Spring Scaffold plugin
     $ cd cli-spring-boot-scaffold
     $ mvn install
     $ spring install br.com.netodevel:spring-scaffold-cli:{LATEST_RELEASE}
+	$ 比如:spring install br.com.netodevel:spring-scaffold-cli:1.1.0.BUILD-SNAPSHOT
 
 
 # Usage
