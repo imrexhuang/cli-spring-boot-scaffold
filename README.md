@@ -46,7 +46,7 @@ And install the Spring Scaffold plugin
     $ mvn install (或mvn clean install -DskipTests)
     $ spring install br.com.netodevel:spring-scaffold-cli:{LATEST_RELEASE}
 	$ 比如:spring install br.com.netodevel:spring-scaffold-cli:1.1.0.BUILD-SNAPSHOT
-	$ 執行後會註冊到spring-boot-cli安裝路徑\lib\ext\下的.installed檔案內
+	$ 執行spring install後會把相關jar檔複製到spring-boot-cli安裝路徑下的\lib\ext\資料夾內，並註冊到.installed檔案內
 
 
 # Usage
