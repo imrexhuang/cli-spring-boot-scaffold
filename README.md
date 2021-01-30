@@ -43,7 +43,7 @@ And install the Spring Scaffold plugin
 
     $ git clone https://github.com/NetoDevel/cli-spring-boot-scaffold.git
     $ cd cli-spring-boot-scaffold
-    $ mvn install
+    $ mvn install (或mvn clean install -DskipTests)
     $ spring install br.com.netodevel:spring-scaffold-cli:{LATEST_RELEASE}
 	$ 比如:spring install br.com.netodevel:spring-scaffold-cli:1.1.0.BUILD-SNAPSHOT
 
