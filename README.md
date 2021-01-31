@@ -51,7 +51,7 @@ And install the Spring Scaffold plugin
 
 # Usage
 
-    $ spring init --dependencies=web,data-jpa,thymeleaf,mysql --package-name=com.example my-project
+    $ spring init --dependencies=web,data-jpa,thymeleaf,mysql,sqlserver --package-name=com.example my-project
     $ cd my-project
     $ spring setup:scaffold
     $ spring scaffold -n "User" -p "name:String email:String"
@@ -59,7 +59,7 @@ And install the Spring Scaffold plugin
     $ mvn spring-boot:run
 
 Default is spring 1.x, edit scaffold.info to change to 2.x before run *spring scaffold*.
-
+可以使用spring init --list列出所有可以使用的參數
 
 ### Template command
 
@@ -130,7 +130,7 @@ Default is spring 1.x, edit scaffold.info to change to 2.x before run *spring sc
 | spring service  | -n | spring service -n User 
 | spring controller  | -n | spring controller -n User
 | spring scaffold  | -n -p |spring scaffold -n "User" -p "name:String mail:String" |
-| spring setup:scaffold| -n -db -u -p | spring  setup:scaffold -n "com.example" -db "dbname" -u "root" -p "root"
+| spring setup:scaffold| -n -db -u -p | spring  setup:scaffold -n "com.example" -db "dbname" -u "root" -p "root"  (這指令設定的帳密會寫入到\my-project\src\main\resources\scaffold.info)
 | spring db:create  | -p  | spring db:create -p "mysql" (REMOVED)
 
 
